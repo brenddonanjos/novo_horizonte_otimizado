@@ -1,0 +1,9 @@
+services:
+  novo_horizonte:
+    image: nginx:1.27.5
+    container_name: novo_horizonte
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - .:/usr/share/nginx/html
