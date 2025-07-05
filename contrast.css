@@ -1,18 +1,16 @@
 body.high-contrast {
-  background-color: #000000 !important;
+  background-color: #000000;
   color: #ffffff !important;
 }
 
 body.high-contrast * {
-  background-color: #000000 !important;
   color: #ffffff !important;
   border-color: #ffffff !important;
 }
 
 body.high-contrast .bg-light {
-  background-color: #000000 !important;
+  background-color: #6b482f !important;
 }
-
 body.high-contrast .bg-primary-custom {
   background-color: #000000 !important;
   color: #ffffff !important;
@@ -26,6 +24,10 @@ body.high-contrast .bg-secondary-custom {
 body.high-contrast .bg-dark {
   background-color: #000000 !important;
   color: #ffffff !important;
+}
+
+body.high-contrast .logo-white {
+  background-color: #ffffff;
 }
 
 body.high-contrast .card {
