@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contrast.css">
   </head>
   <body>
     <header class="bg-light py-3">
@@ -42,11 +43,29 @@
                       alt="Ícone de acessibilidade"
                     /><strong>ACESSIBILIDADE</strong>
                   </button>
-
-                  <ul class="dropdown-menu" aria-labelledby="inclusivityDropdown">
-                    <li><span class="dropdown-item cp" id="darkMode">Modo escuro</span></li>
-                    <li><span class="dropdown-item cp" id="increaseFont">+ Aumentar fonte</span></li>
-                    <li><span class="dropdown-item cp" id="decreaseFont">- Diminuir fonte</span></li>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="inclusivityDropdown"
+                  >
+                    <li>
+                      <span class="dropdown-item cp" id="highContrast"
+                        >
+                        <img src="img/icon-contrast.png" alt="Ícone que representa modo contraste" class="menu-icon me-2">
+                        Modo contraste</span
+                      >
+                    </li>
+                    <li>
+                      <span class="dropdown-item cp" id="increaseFont"
+                        ><img src="img/icon-add.png" alt="Ícone que representa aumentar fonte" class="menu-icon me-2">
+                        Aumentar fonte</span
+                      >
+                    </li>
+                    <li>
+                      <span class="dropdown-item cp" id="decreaseFont"
+                        ><img src="img/icon-minus.png" alt="Ícone que representa diminuir fonte" class="menu-icon me-2">
+                        Diminuir fonte</span
+                      >
+                    </li>
                   </ul>
                 </div>
               </div>
