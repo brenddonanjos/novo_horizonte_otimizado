@@ -133,6 +133,10 @@ body {
 .menu-icon {
   width: 1.5rem;
 }
+
+.dropdown-menu .menu-icon {
+    width: 1rem;
+}
 /* Buttons */
 .btn {
   font-weight: 500;
