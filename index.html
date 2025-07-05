@@ -17,16 +17,39 @@
     <header class="bg-light py-3">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-3 col-sm-5">
+          <div class="col-md-3 col-sm-5 col-4">
             <img
               src="img/logo.png"
               class="img-fluid"
               alt="Logo da VIAÇÃO NOVO HORIZONTE"
             />
           </div>
-          <div class="col-md-9 col-sm-7">
-            <div class="row text-end">
-              <div class="col-md-4 offset-md-5 col-sm-6">
+          <div class="col-md-9 col-sm-7 col-8">
+            <div class="row superior-info">
+              <div class="col-md-4 col-sm-12 text-end">
+                <div class="dropdown object-fit-contain mb-4">
+                  <button
+                    class="btn-inclusivity dropdown-toggle"
+                    type="button"
+                    id="inclusivityDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="img/open-arms.png"
+                      class="menu-icon me-2"
+                      alt="Ícone de acessibilidade"
+                    /><strong>ACESSIBILIDADE</strong>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="inclusivityDropdown">
+                    <li><span class="dropdown-item cp" id="darkMode">Modo escuro</span></li>
+                    <li><span class="dropdown-item cp" id="increaseFont">+ Aumentar fonte</span></li>
+                    <li><span class="dropdown-item cp" id="decreaseFont">- Diminuir fonte</span></li>
+                  </ul>
+                  <p></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 text-end">
                 <img
                   src="img/whatsapp.png"
                   class="menu-icon me-2"
@@ -35,83 +58,85 @@
                 <p>77 2102-8500</p>
               </div>
 
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-4 col-sm-6 text-end">
                 <img
                   src="img/online-support.png"
                   class="menu-icon me-2"
                   alt="Ícone que representa suporte online"
-                /><strong>DÚVIDAS</strong> 
+                /><strong>DÚVIDAS</strong>
                 <p>0800 500 1122</p>
               </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <button
-                class="navbar-toggler ms-auto"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <!-- Dropdown -->
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdown"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                    >
-                      A NOVO HORIZONTE
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="#" data-item="empresa"
-                          >A empresa</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#" data-item="historia"
-                          >A história</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#" data-item="frota"
-                          >A nossa frota</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#" data-item="agencias"
-                          >Agências</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" data-item="encomendas"
-                      >CARGAS E ENCOMENDAS</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" data-item="ferramentas"
-                      >FERRAMENTO</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" data-item="vagas_pcd"
-                      >VAGAS PCD</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" data-item="orientacao"
-                      >GUIA DE ORIENTAÇÃO AOS PASSAGEIROS</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </nav>
+            <div class="row">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <button
+                  class="navbar-toggler ms-auto"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                      >
+                        A NOVO HORIZONTE
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#" data-item="empresa"
+                            >A empresa</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#" data-item="historia"
+                            >A história</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#" data-item="frota"
+                            >A nossa frota</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#" data-item="agencias"
+                            >Agências</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" data-item="encomendas"
+                        >CARGAS E ENCOMENDAS</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" data-item="ferramentas"
+                        >FERRAMENTO</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" data-item="vagas_pcd"
+                        >VAGAS PCD</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" data-item="orientacao"
+                        >GUIA DE ORIENTAÇÃO AOS PASSAGEIROS</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
@@ -120,55 +145,82 @@
     <!-- Conteúdo Principal -->
     <section class="py-5 bg-primary-custom">
       <div class="container">
-        <div class="row mb-5 align-items-center">
-          <div class="col-md-4">
-            <h2>Rota da Viação</h2>
-            <p>Nosso trajeto percorre as seguintes cidades:</p>
-            <ol>
-              <li>Vitória da Conquista</li>
-              <li>Itapetinga</li>
-              <li>Jequié</li>
-              <li>Feira de Santana</li>
-              <li>Salvador</li>
-            </ol>
+        <div id="carouselMain" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselMain"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselMain"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
           </div>
-          <div class="col-md-8">
-            <div class="row align-items-center mb-3">
-              <div class="col-md-2">
-                <img
-                  src="img/logo_b.png"
-                  alt="Logo da Viação Novo Horizonte"
-                  class="img-fluid rounded"
-                />
-              </div>
-              <div class="col-md-10">
-                <h2 class="display-5 mb-3">COMUNICADO IMPORTANTE</h2>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row mb-5 align-items-center">
+                <div class="col-md-4">
+                  <h2>Rota da Viação</h2>
+                  <p>Nosso trajeto percorre as seguintes cidades:</p>
+                  <ol>
+                    <li>Vitória da Conquista</li>
+                    <li>Itapetinga</li>
+                    <li>Jequié</li>
+                    <li>Feira de Santana</li>
+                    <li>Salvador</li>
+                  </ol>
+                </div>
+                <div class="col-md-8">
+                  <div class="row align-items-center mb-3">
+                    <div class="col-md-2">
+                      <img
+                        src="img/logo_b.png"
+                        alt="Logo da Viação Novo Horizonte"
+                        class="img-fluid rounded"
+                      />
+                    </div>
+                    <div class="col-md-10">
+                      <h2 class="display-5 mb-3">COMUNICADO IMPORTANTE</h2>
+                    </div>
+                  </div>
+                  <p class="lead">
+                    Informamos que, desde a manha de segunda-feira (05/05),<b>
+                      a ponte sobre o Rio Jequitinhonha, em Itapebi (BA), está
+                      interditada</b
+                    >, conforme o comunicado oficial do <b>DNIT</b>.
+                  </p>
+                  <p>
+                    Durante esse período, os veículos com origem ou destino a
+                    Porto Seguro estão sendo desviados por uma
+                    <b>rota alternativa</b>, o que pode alterar os horários de
+                    percurso e prolongar o tempo de viagem em até
+                    <b>2 (duas) horas e 30 (trinta) minutos.</b>
+                  </p>
+                  <p>
+                    O caminho alternativo passará pelo
+                    <b>Entroncamento de Santa Maria Eterna</b>, seguindo pela
+                    estrada de <b>Veracel</b> até a BR-101, nas proximidades da
+                    rodoviária de Belmonte, retomando o trajeto habitual em
+                    Barrolândia, com destina à <b>Eunápolis.</b>
+                  </p>
+                  <p>
+                    A <b class="text-yellow">Viação Novo Horizonte</b> reforça
+                    seu compromisso com o
+                    <b>conforto e a segurança dos passageiros</b>, e agradece
+                    pela compreensão de todos.
+                  </p>
+                </div>
               </div>
             </div>
-            <p class="lead">
-              Informamos que, desde a manha de segunda-feira (05/05),<b>
-                a ponte sobre o Rio Jequitinhonha, em Itapebi (BA), está
-                interditada</b
-              >, conforme o comunicado oficial do <b>DNIT</b>.
-            </p>
-            <p>
-              Durante esse período, os veículos com origem ou destino a Porto
-              Seguro estão sendo desviados por uma <b>rota alternativa</b>, o
-              que pode alterar os horários de percurso e prolongar o tempo de
-              viagem em até <b>2 (duas) horas e 30 (trinta) minutos.</b>
-            </p>
-            <p>
-              O caminho alternativo passará pelo
-              <b>Entroncamento de Santa Maria Eterna</b>, seguindo pela estrada
-              de <b>Veracel</b> até a BR-101, nas proximidades da rodoviária de
-              Belmonte, retomando o trajeto habitual em Barrolândia, com destina
-              à <b>Eunápolis.</b>
-            </p>
-            <p>
-              A <b class="text-yellow">Viação Novo Horizonte</b> reforça seu
-              compromisso com o <b>conforto e a segurança dos passageiros</b>, e
-              agradece pela compreensão de todos.
-            </p>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>
           </div>
         </div>
 
